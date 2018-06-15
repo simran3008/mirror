@@ -1,0 +1,33 @@
+{
+    "name": "mirror",
+    "preferGlobal": true,
+    "version": "0.0.1",
+    "author": "Simran Jaising <simranjaising@gmail.com>",
+    "description": "Web App that is the interface for a smart mirror",
+    "engines": {
+        "node": ">=0.10"
+    },
+    "scripts": {
+        "start": "webpack-dev-server"
+    },
+    "dependencies": {
+        "eslint": "4.19.1",
+        "express": "~3.4.7",
+        "html-webpack-plugin": "^3.2.0",
+        "path": "^0.12.7",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "webpack": "^4.12.0",
+        "webpack-dev-server": "^3.1.4"
+    },
+    "main": "index.js",
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-preset-es2016": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "webpack-cli": "^3.0.6"
+    }
+}
