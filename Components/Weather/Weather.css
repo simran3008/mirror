@@ -1,0 +1,15 @@
+.Font-Heading {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'Assistant';
+}
+
+.Font-Paragraph {
+  font-weight: 400;
+  font-size: 25px;
+  font-family: 'Assistant';
+}
+
+.Align-Center {
+  text-align: center;
+}

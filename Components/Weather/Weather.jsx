@@ -25,12 +25,13 @@ class Weather extends React.Component {
     if(this.state.weather){
       const weather_data = this.state.weather;
       return (
-        <div style={{color: 'white'}} >
-          <div className="Font-Heading">
+        <div style={{color: 'white', position: 'absolute', margin: '5px'}} >
+          <div style={{marginBottom: '15px'}} className="Font-Heading">
             {weather_data.location.name}
           </div>
-          <div className="Font-Paragraph">
-            {weather_data.current.condition.text}
+          <div>
+            <img src="./Components/Weather/moon.png"></img>
+            <div className="Font-Paragraph">{weather_data.forecast.forecastday.day.mintemp_c} C</div>
           </div>
         </div>
       );
