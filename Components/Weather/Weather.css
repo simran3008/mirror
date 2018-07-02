@@ -1,15 +1,27 @@
 .Font-Heading {
   font-weight: 400;
   font-size: 40px;
-  font-family: 'Assistant';
+  font-family: 'Abel', sans-serif;
+  color: 'white'
 }
 
 .Font-Paragraph {
   font-weight: 400;
   font-size: 25px;
-  font-family: 'Assistant';
+  font-family: 'Abel', sans-serif;
+  color: 'white'
+}
+
+.Align-Right {
+  float: right;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 .Align-Center {
   text-align: center;
+}
+
+.Display-NewLine {
+  display: flex;
 }
