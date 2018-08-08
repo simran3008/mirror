@@ -6,7 +6,7 @@ const WEATHER_API= 'https://api.apixu.com/v1/forecast.json?key=f744a353ddf640788
 class Weather extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { weather: null } ;
+    this.state = {weather: null} ;
   }
 
   componentDidMount() {
