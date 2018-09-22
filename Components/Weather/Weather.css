@@ -1,6 +1,6 @@
 .Font-Heading {
   font-weight: 400;
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Abel', sans-serif;
   color: 'white'
 }
@@ -24,4 +24,9 @@
 
 .Display-NewLine {
   display: flex;
+}
+
+.Flex-Container {
+   display: flex;
+   flex-direction: column;
 }
