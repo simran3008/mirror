@@ -1,13 +1,20 @@
 .Font-Heading {
-  font-weight: 400;
-  font-size: 50px;
+  font-weight: 200;
+  font-size: 25px;
   font-family: 'Abel', sans-serif;
   color: 'white'
 }
 
 .Font-Paragraph {
+  font-weight: 200;
+  font-size: 15px;
+  font-family: 'Abel', sans-serif;
+  color: 'white'
+}
+
+.Font-Paragraph-Big {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 35px;
   font-family: 'Abel', sans-serif;
   color: 'white'
 }

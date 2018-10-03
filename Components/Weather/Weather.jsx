@@ -23,12 +23,13 @@ class Weather extends React.Component {
 
   render() {
     if(this.state.weather){
+      this.state.weather = this.state.weather.splice(0,6);
       const weatherHour = this.state.weather.map((hour) => {
         return (<div><WeatherHour temp={hour}></WeatherHour></div>)
       });
       return (
         <div style={{color: 'white'}} >
-          <div className="Font-Heading" style={{marginLeft:'20px'}}>
+          <div className="Font-Paragraph-Big" style={{marginLeft:'20px', marginBottom: '10px'}}>
             Today's Forecast
           </div>
           <div>
